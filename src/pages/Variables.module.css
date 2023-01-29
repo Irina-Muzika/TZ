@@ -1,0 +1,34 @@
+.a{
+    color:dodgerblue;
+    text-decoration: none;
+    margin: 20px;
+
+
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+   
+}
+.ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: flex-start;
+max-width: 80%;
+margin:20px auto;
+gap: 10px;
+
+}
+.link{
+    color:dodgerblue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .a {
+       font-size: larger;
+    }
+}
